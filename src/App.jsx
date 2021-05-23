@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const App = () => {
+export const App = ({name}) => {
     return (
         <div>
             Hello World!
