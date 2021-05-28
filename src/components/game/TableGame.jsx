@@ -2,6 +2,16 @@ import React from 'react'
 import { Square } from './Square'
 
 export const TableGame = () => {
+  /*
+    var Juan =0
+    console.log(Juan);
+    console.log(typeof(Juan));
+  */
+    
+    
+
+
+
     return (
         <div className="grid grid-cols-3 w-1/3  h-4/6 ">
             <Square clase=" w-full h-full bg-red-600 borde border-solid border-2 border-black" />
@@ -16,5 +26,6 @@ export const TableGame = () => {
             
             
         </div>
+        
     )
 }
