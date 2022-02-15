@@ -8,7 +8,7 @@ import { RegisterScreen } from './components/auth/RegisterScreen';
 export const App = ({ name }) => {
     return (
         <>
-            <LoginScreen />
+            <GameScreen />
         </>
     );
 };
